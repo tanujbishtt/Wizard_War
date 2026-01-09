@@ -39,7 +39,6 @@ pip-delete-this-directory.txt
 # Virtual Environment
 Lib/
 Scripts/
-Include/
 pyvenv.cfg
 pip-selfcheck.json
 
