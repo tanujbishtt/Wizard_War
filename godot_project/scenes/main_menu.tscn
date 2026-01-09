@@ -1,0 +1,40 @@
+[gd_scene load_steps=2 format=3 uid="uid://dsgd8yck6f27r"]
+
+[ext_resource type="Script" uid="uid://ch5v2dnphlxlq" path="res://scenes/main_menu.gd" id="1_l6cm7"]
+
+[node name="Main Menu" type="Node2D"]
+script = ExtResource("1_l6cm7")
+
+[node name="Button_Manager" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="start" type="TextureButton" parent="Button_Manager"]
+layout_mode = 0
+offset_left = 137.00009
+offset_top = 276.0
+offset_right = 183.00009
+offset_bottom = 307.0
+scale = Vector2(4.8908095, 3.7260828)
+
+[node name="options" type="TextureButton" parent="Button_Manager"]
+layout_mode = 0
+offset_left = 745.0
+offset_top = 278.0
+offset_right = 815.0
+offset_bottom = 309.0
+scale = Vector2(2.9514568, 3.4036064)
+
+[node name="quit" type="TextureButton" parent="Button_Manager"]
+layout_mode = 0
+offset_left = 741.99994
+offset_top = 433.99997
+offset_right = 783.99994
+offset_bottom = 464.99997
+scale = Vector2(5.029036, 3.645228)
+
+[connection signal="pressed" from="Button_Manager/start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="Button_Manager/options" to="." method="_on_options_pressed"]
+[connection signal="pressed" from="Button_Manager/quit" to="." method="_on_quit_pressed"]
