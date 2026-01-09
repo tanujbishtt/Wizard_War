@@ -145,7 +145,7 @@ This project is open source and available for educational purposes.
 
 ## 👨‍💻 Author
 
-Created with ❤️ by the Wizard War team
+Created with ❤️ by Me :>
 
 ---
 
