@@ -8,7 +8,6 @@ A gesture-controlled multiplayer fighting game built with Godot Engine and Pytho
 - **Real-time Hand Tracking**: Powered by MediaPipe for accurate hand landmark detection
 - **Two Player Support**: Simultaneous control with left hand (Player 1) and right hand (Player 2)
 - **UDP Communication**: Low-latency gesture-to-game communication via UDP sockets
-- **Debounced Actions**: Smooth gesture recognition with action stabilization
 
 ## 🎮 Gesture Controls
 
@@ -35,7 +34,7 @@ A gesture-controlled multiplayer fighting game built with Godot Engine and Pytho
 
 ## 📋 Requirements
 
-- Python 3.11+
+- Python 3.11
 - Webcam
 - Windows OS (tested on Windows)
 
@@ -43,17 +42,16 @@ A gesture-controlled multiplayer fighting game built with Godot Engine and Pytho
 - opencv-python (cv2)
 - mediapipe
 - numpy
-- scipy
 
 ## 🚀 Installation
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/ujbishtt/Wizard_War.git
+   git clone https://github.com/tanujbishtt/Wizard_War.git
    cd Wizard_War
    ```
 
-2. **Activate the virtual environment**
+2. **Activate the virtual environment(use py 3.11)[Optional]**
    ```bash
    # Windows
    .\Scripts\Activate.ps1
@@ -61,7 +59,7 @@ A gesture-controlled multiplayer fighting game built with Godot Engine and Pytho
 
 3. **Install dependencies** (if needed)
    ```bash
-   pip install opencv-python mediapipe numpy scipy
+   pip install opencv-python mediapipe numpy
    ```
 
 ## 🎯 How to Run
@@ -108,8 +106,6 @@ Wizard_War/
 │   │   ├── player_01.tscn   # Player 1 character
 │   │   └── player_02.tscn   # Player 2 character
 │   └── project.godot        # Godot project file
-├── Lib/                     # Python virtual environment libraries
-├── Scripts/                 # Virtual environment scripts
 └── README.md
 ```
 
