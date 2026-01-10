@@ -5,9 +5,9 @@ A gesture-controlled multiplayer fighting game built with Godot Engine and Pytho
 ## 🎥 Demo
 
 > A quick look at **Wizard War** in action — gesture-controlled combat in real time.
-
-![Wizard War Demo](demo/wizard_war_demo.gif)
-
+<p align="center">
+  <img src="demo/wizard_war_demo.gif" width="600">
+</p>
 *Live hand-gesture control using MediaPipe + Godot (no keyboard input).*
 
 
